@@ -19,6 +19,9 @@ public class StudentMain {
 			s[i].setId(scan.nextInt());
 			System.out.println("Enter name: ");
 			s[i].setName(scan.next());
+			System.out.println("Enter address: ");
+			s[i].setAddress(scan.next());
 		}
+		scan.close();
 	}
 }
